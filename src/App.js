@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addNote, deleteLast } from "./notesSlice";
 import { Input, Button } from "@mui/material";
-import { Container, Wrapper, Typography } from "./AppStyles";
+import { Container, Wrapper } from "./AppStyles";
 
 export default function App() {
   const [value, setValue] = useState();
